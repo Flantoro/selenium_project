@@ -5,7 +5,6 @@ public class Tests extends pageObjects{
     @Test
     public void FirstTest(){
         openWebsite();
-
+        loginAsStandartUser();
     }
-
 }
