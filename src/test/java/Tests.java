@@ -6,5 +6,6 @@ public class Tests extends pageObjects{
     public void FirstTest(){
         openWebsite();
         loginAsStandartUser();
+        checkTheUrl();
     }
 }
